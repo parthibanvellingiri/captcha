@@ -311,7 +311,7 @@ class Captcha
         $bag = [];
 
         if ($this->math) {
-            $x = random_int(10, 30);
+            $x = random_int(1, 9);
             $y = random_int(1, 9);
             $bag = "$x + $y = ";
             $key = $x + $y;
